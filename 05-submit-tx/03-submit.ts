@@ -33,10 +33,10 @@ const account = privateKeyToAccount(`0x${privateKey}` as Hex);
   });
 
   const tx = await contract.write.recordSubmission([
-    'markneri',
-    'kimerran',
-    '0x3b26E8DA9aDedAAe86a260b6354aC1855AA65C14',
-    '0x3b26E8DA9aDedAAe86a260b6354aC1855AA65C14'
+    '4ndre1',
+    'Carl Andrei',
+    '0x828e3e7F221e34Ad95ac6fEaeef40610F39177d2',
+    '0xc99D8060b49A137544dDEA3220F374dEDaA3A527'
     ]);    
   console.log('tx', tx);
 })();

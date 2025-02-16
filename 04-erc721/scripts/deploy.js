@@ -5,18 +5,13 @@
 // will compile your contracts, add the Hardhat Runtime Environment's members to the
 // global scope, and execute the script.
 const hre = require("hardhat");
-const fs = require('fs');
 
 async function main() {
-  const contract = await hre.ethers.deployContract("Adi", [1000000000000000000n]);
+  const contract = await hre.ethers.deployContract("MyNFT");
 
   await contract.waitForDeployment();
 
-  const contractAddress = contract.target;
-  console.log(`Deployed to ${contractAddress}`);
-
-  // Save the contract address to a file
-  fs.writeFileSync('deployedAddress.txt', contractAddress);
+  console.log(`Deployed to ${contract.target}`);
 }
 
 // We recommend this pattern to be able to use async/await everywhere

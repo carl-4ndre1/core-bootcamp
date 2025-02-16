@@ -59,3 +59,4 @@ For change request, please clone and submit pull-request. Or e-mail at mark@theb
 02-hardhat: 0x5Bc6104C5adEAB5E29Ad1AbF3Bc49994B7909947
 03-erc20: 0x15ab7dc7642852F72D47E2059b11a3A2185A47fE
     -PLT contract -- 0x828e3e7F221e34Ad95ac6fEaeef40610F39177d2
+04-erc721: 0xc99D8060b49A137544dDEA3220F374dEDaA3A527    
