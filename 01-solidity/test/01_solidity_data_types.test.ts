@@ -18,8 +18,8 @@ describe("SolidityDataTypes", function () {
     return { ctcSolidityDataTypes, account1 };
   }
 
-  describe("Deployment", function () {
-    it("should call constructor", async function () {
+  describe("DEPLOYED SUCCESS!!", function () {
+    it("should call constructor!!!", async function () {
       const { ctcSolidityDataTypes } = await loadFixture(deploy);
 
       expect(ctcSolidityDataTypes).not.to.be.undefined;

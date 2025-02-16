@@ -1,0 +1,12 @@
+{
+    "name": "Wiwaw",
+    "description": "Catyyy",
+    "symbol": "WIW",
+    "image": "https://i.imgur.com/SkoBe8D.jpeg",
+    "attributes": [
+        {
+            "trait_type": "color",
+            "value": "blue"
+        }
+    ]
+}
